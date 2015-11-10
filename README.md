@@ -1,5 +1,5 @@
-# SQL_IndexManager
-IndexManager is one of 6 modules of <a title="our whole project" href="https://github.com/2015DatabaseDesign/MiniDB" target="_blank">MINISQL </a>, project of database design course. You can compile and debug IndexManager **without** other modules just use *make* command in your shell. <br/>
+# MiniSQL_IndexManager
+IndexManager is one of 6 modules of <a title="our whole project" href="https://github.com/2015DatabaseDesign/MiniDB" target="_blank">MiniSQL</a>, project of database design course. You can compile and debug IndexManager **without** other modules just use *make* command in your shell. <br/>
 The structure of the program is listed below:<br/>
 <img src="https://github.com/bingzhangdai/MiniSQL_IndexManager/blob/master/doc/overall.png" alt="structure" align=center /><br/>
 
