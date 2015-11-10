@@ -201,7 +201,8 @@ int IndexManager::findParent(const std::string& database, const std::string& tab
 	return parent;
 }
 
-void IndexManager::search_many(const std::string& database, const std::string& table_name, int& start, int& end, int type, struct index_info& inform, vector<int>& container) {
+void IndexManager::search_many(const std::string& database, const std::string& table_name, int type, struct index_info& inform, vector<int>& container) {
+    int start, end;
 	int length, next;
 	if (inform.type == Int)
 		length = IntLen;

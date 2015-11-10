@@ -12,7 +12,7 @@ private:
 public:
 	IndexManager();
 	int search_one(const std::string& database, const std::string& table_name, struct index_info& inform);
-	void search_many(const std::string& database, const std::string& table_name, int& start, int& end, int type, struct index_info& inform, std::vector<int>& container);
+	void search_many(const std::string& database, const std::string& table_name, int type, struct index_info& inform, std::vector<int>& container);
 	void insert_one(const std::string& database, const std::string& table_name, struct index_info& inform);
 	void delete_one(const std::string& database, const std::string& table_name, struct index_info& inform);
 };
