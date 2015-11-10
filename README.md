@@ -1,8 +1,7 @@
 # SQL_IndexManager
-Project of database design course, written in C++ and using Visual Studio 2015 to organize the project<br/>
-IndexManager is one of 6 modules of <a title="our whole project" href="https://github.com/2015DatabaseDesign/MiniDB" target="_blank">MINISQL </a> <br/>
-The structure of the program is listed below:
-![](https://github.com/bingzhangdai/MiniSQL_IndexManager/blob/master/doc/overall.png)<br/>
+IndexManager is one of 6 modules of <a title="our whole project" href="https://github.com/2015DatabaseDesign/MiniDB" target="_blank">MINISQL </a>, project of database design course. You can compile and debug IndexManager **without** other modules just use *make* command in your shell. <br/>
+The structure of the program is listed below:<br/>
+<img src="https://github.com/bingzhangdai/MiniSQL_IndexManager/blob/master/doc/overall.png" alt="structure" align=center /><br/>
 
 ## API
 IndexManager class provides 4 interfaces for other modules<br/>
