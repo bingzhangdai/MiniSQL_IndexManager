@@ -1,0 +1,3 @@
+[submodule "MiniDB"]
+	path = MiniDB
+	url = git@github.com:2015DatabaseDesign/MiniDB
